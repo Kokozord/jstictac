@@ -1,0 +1,41 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>TicTacToe</title>
+  <meta name="description" content="TicTacToe Game">
+  <meta name="author" content="Koko">
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+  <script src="script.js"></script>
+    <div class='container-main'>
+     <div id="gameboard">
+         <div id="rowOne">
+             <div class="game-cell" id="board-0" data-cell="0" onclick='Game.claimCell()'></div>
+             <div class="game-cell" id="board-1" data-cell="1" onclick='Game.claimCell()'></div>
+             <div class="game-cell" id="board-2" data-cell="2" onclick='Game.claimCell()'></div>
+         </div>
+        <div id="rowTwo">
+            <div class="game-cell" id="board-3" data-cell="3" onclick='Game.claimCell()'></div>
+            <div class="game-cell" id="board-4" data-cell="4" onclick='Game.claimCell()'></div>
+            <div class="game-cell" id="board-5" data-cell="5" onclick='Game.claimCell()'></div>
+        </div>
+        <div id="rowThree">
+            <div class="game-cell" id="board-6" data-cell="6" onclick='Game.claimCell()'></div>
+            <div class="game-cell" id="board-7" data-cell="7" onclick='Game.claimCell()'></div>
+            <div class="game-cell" id="board-8" data-cell="8" onclick='Game.claimCell()'></div>
+        </div>
+        <div>
+          <button type='button' onclick='Game.startRound()'>Reset</button>
+        </div>
+    </div>
+</body>
+
+
+</html>

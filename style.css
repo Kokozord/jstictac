@@ -1,0 +1,32 @@
+.container-main {
+    display: flex;
+}
+
+ #gameboard {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 200px;
+    background: white;
+}
+
+#gameboard div {
+    border: 1px solid grey;
+    min-width: 50px;
+    min-height: 50px;
+}
+
+#rowOne, #rowTwo, #rowThree {
+    display: flex;
+    flex-direction: row;
+}
+
+.x {
+    color: red;
+}
+
+.o {
+    color: blue;
+}
