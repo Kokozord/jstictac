@@ -15,7 +15,8 @@
 <body>
   <script src="script.js"></script>
     <div class='container-main'>
-     <div id="gameboard">
+     <div id="game-display">
+       <div id='gameboard'>
          <div id="rowOne">
              <div class="game-cell" id="board-0" data-cell="0" onclick='Game.claimCell()'></div>
              <div class="game-cell" id="board-1" data-cell="1" onclick='Game.claimCell()'></div>
@@ -34,6 +35,7 @@
         <div>
           <button type='button' onclick='Game.startRound()'>Reset</button>
         </div>
+      </div>
     </div>
 </body>
 
